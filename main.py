@@ -169,7 +169,7 @@ def main():
     results = compare_values(pdf_metric_dict, excel_metric_dict)
 
     # Create a DataFrame for display
-    df = pd.DataFrame(results, columns=["Metric", "Value from PDF", "Value from Excel", "Match"])
+    df = pd.DataFrame(results, columns=["Metric", "PDF", "Excel", "Match"])
     print(df)
 
 
